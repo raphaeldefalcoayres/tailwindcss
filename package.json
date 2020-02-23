@@ -1,0 +1,27 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "Simple instalation of tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "postcss src/style.css -o src/prod.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaeldefalcoayres/tailwindcss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raphaeldefalcoayres/tailwindcss/issues"
+  },
+  "homepage": "https://github.com/raphaeldefalcoayres/tailwindcss#readme",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.0.6",
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.27",
+    "tailwindcss": "^1.2.0"
+  }
+}
